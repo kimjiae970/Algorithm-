@@ -8,8 +8,8 @@
 ---
 
 * `solve` : 문제 풀이 완료<br>
-* `fail`: 풀이에 실패한 새 문제 추가<br>
-* `improve`: 새로운 성공 풀이를 추가한 문제<br>
+* `fail`: 풀이에 실패한 문제 <br>
+* `improve`: 새로운 성공 풀이<br>
 * `docs`: readme 등 문서 수정<br>
 
 <br>
