@@ -1,3 +1,5 @@
+package programmers;
+
 import java.util.StringTokenizer;
 
 public class Prac4 {

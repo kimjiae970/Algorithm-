@@ -1,3 +1,5 @@
+package programmers;
+
 import java.util.Arrays;
 
 // 최솟값 만들기

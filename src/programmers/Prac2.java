@@ -1,3 +1,5 @@
+package programmers;
+
 class Prac2 {
     public int solution(int[] numbers) {
 
