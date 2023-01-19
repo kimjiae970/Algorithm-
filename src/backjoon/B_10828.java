@@ -3,7 +3,7 @@ package backjoon;
 import java.util.Scanner;
 import java.util.Stack;
 
-public class StackBasic {
+public class B_10828 {
 
 // stack 생성
     public static Stack<Integer> stack = new Stack<>();
