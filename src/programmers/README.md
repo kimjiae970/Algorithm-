@@ -8,7 +8,7 @@
 
 |레벨|문제 제목|날짜|진행 상황|
 |------|---|---|---|
-|Lv 2|[피보나치 수](https://github.com/kimjiae970/Algorithm-/blob/main/src/programmers/Prac9.java)|jan 24 2023|solve|
+|Lv 2|[피보나치 수](https://github.com/kimjiae970/Algorithm-/blob/main/src/programmers/Prac9.java)|jan 24, 2023|solve|
 |Lv 2|[피보나치 수](https://github.com/kimjiae970/Algorithm-/blob/main/src/programmers/Prac8.java)|Jan 20, 2023|solve|
 |Lv 2|[올바른 괄호](https://github.com/kimjiae970/Algorithm-/blob/main/src/programmers/Prac7.java)|Jan 11, 2023|solve|
 |Lv 2|[최솟값 만들기](https://github.com/kimjiae970/Algorithm-/blob/main/src/Prac6.java)|Jan 9, 2023|solve|
