@@ -17,6 +17,12 @@
 | Lv 2 | [대표값2 : 2587](https://github.com/kimjiae970/Algorithm-/blob/main/src/backjoon/B_2587.java) | Jan 29, 2023 | solve|
 | Lv 1 | [수 정렬하기 :2750](https://github.com/kimjiae970/Algorithm-/blob/main/src/backjoon/B_2750.java) | Jan 19, 2023 | solve|
 
+### 🔗 집합과 맵
+| 레벨   | 문제 제목: 번호                                                                                   | 날짜           | 진행 상황 |
+|------|---------------------------------------------------------------------------------------------|--------------|-------|
+| Lv 1 | [숫자 카드 :10815](https://github.com/kimjiae970/Algorithm-/blob/main/src/backjoon/B_10815.java) | Jan 30, 2023 | solve|
+
+
 ### 🔗 스택
 
 | 레벨   | 문제 제목: 번호 | 날짜  | 진행 상황 |
