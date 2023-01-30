@@ -8,8 +8,9 @@
 
 |레벨| 문제 제목                                                                                   |날짜|진행 상황|
 |------|-----------------------------------------------------------------------------------------|---|---|
-|Lv 2| [귤 고르기](https://github.com/kimjiae970/Algorithm-/blob/main/src/programmers/Prac10.java)    |jan 27, 2023|solve|
-|Lv 2| [구명보트](https://github.com/kimjiae970/Algorithm-/blob/main/src/programmers/Prac9.java)    |jan 24, 2023|solve|
+|Lv 2| [짝 지어 제거하기](https://github.com/kimjiae970/Algorithm-/blob/main/src/programmers/Prac11.java)| Jan 30, 2023| solve|
+|Lv 2| [귤 고르기](https://github.com/kimjiae970/Algorithm-/blob/main/src/programmers/Prac10.java)    |Jan 27, 2023|solve|
+|Lv 2| [구명보트](https://github.com/kimjiae970/Algorithm-/blob/main/src/programmers/Prac9.java)    |Jan 24, 2023|solve|
 |Lv 2| [피보나치 수](https://github.com/kimjiae970/Algorithm-/blob/main/src/programmers/Prac8.java) |Jan 20, 2023|solve|
 |Lv 2| [올바른 괄호](https://github.com/kimjiae970/Algorithm-/blob/main/src/programmers/Prac7.java) |Jan 11, 2023|solve|
 |Lv 2| [최솟값 만들기](https://github.com/kimjiae970/Algorithm-/blob/main/src/Prac6.java)            |Jan 9, 2023|solve|
