@@ -8,6 +8,7 @@
 
 |레벨| 문제 제목                                                                                   |날짜|진행 상황|
 |------|-----------------------------------------------------------------------------------------|---|---|
+|Lv 1| [신규 아이디 추천](https://github.com/kimjiae970/Algorithm-/blob/main/src/programmers/Prac13.java)| Feb 05, 2023| solve|
 |Lv 2| [이진 변환 반복하기](https://github.com/kimjiae970/Algorithm-/blob/main/src/programmers/Prac12.java)| Feb 02, 2023| solve|
 |Lv 2| [짝 지어 제거하기](https://github.com/kimjiae970/Algorithm-/blob/main/src/programmers/Prac11.java)| Jan 30, 2023| solve|
 |Lv 2| [귤 고르기](https://github.com/kimjiae970/Algorithm-/blob/main/src/programmers/Prac10.java)    |Jan 27, 2023|solve|
