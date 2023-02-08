@@ -8,8 +8,8 @@
 ### 🔗 브루트 포스
 | 레벨   | 문제 제목: 번호                                                                                   | 날짜           | 진행 상황 |
 |------|---------------------------------------------------------------------------------------------|--------------|-------|
-| Lv 2 | [분해합 :2231](https://github.com/kimjiae970/Algorithm-/blob/main/src/backjoon/B_2231.java) | Feb 05, 2023 | solve|
-| Lv 1 | [블랙잭 :2798](https://github.com/kimjiae970/Algorithm-/blob/main/src/backjoon/B_2798.java) | Jan 25, 2023 | solve|
+| Lv 2 | [분해합 : 2231](https://github.com/kimjiae970/Algorithm-/blob/main/src/backjoon/B_2231.java) | Feb 05, 2023 | solve|
+| Lv 1 | [블랙잭 : 2798](https://github.com/kimjiae970/Algorithm-/blob/main/src/backjoon/B_2798.java) | Jan 25, 2023 | solve|
 
 
 
@@ -22,13 +22,14 @@
 ### 🔗 집합과 맵
 | 레벨   | 문제 제목: 번호                                                                                   | 날짜           | 진행 상황 |
 |------|---------------------------------------------------------------------------------------------|--------------|-------|
-| Lv 1 | [숫자 카드 :10815](https://github.com/kimjiae970/Algorithm-/blob/main/src/backjoon/B_10815.java) | Jan 30, 2023 | solve|
+| Lv 2 | [문자열 집합 : 14425](https://github.com/kimjiae970/Algorithm-/blob/main/src/backjoon/B_14425.java) | Feb 08, 2023 | solve|
+| Lv 1 | [숫자 카드 : 10815](https://github.com/kimjiae970/Algorithm-/blob/main/src/backjoon/B_10815.java) | Jan 30, 2023 | solve|
 
 
 ### 🔗 스택
 
 | 레벨   | 문제 제목: 번호 | 날짜  | 진행 상황 |
 |------|-------|-----|-------|
-| Lv 2 | [제로 :10773](https://github.com/kimjiae970/Algorithm-/blob/main/src/backjoon/B_10773.java)| Jan 22, 2023 | solve|
-| Lv 1 | [스택 :10828](https://github.com/kimjiae970/Algorithm-/blob/main/src/backjoon/StackBasic.java)      | Jan 14, 2023   | solve     |
+| Lv 2 | [제로 : 10773](https://github.com/kimjiae970/Algorithm-/blob/main/src/backjoon/B_10773.java)| Jan 22, 2023 | solve|
+| Lv 1 | [스택 : 10828](https://github.com/kimjiae970/Algorithm-/blob/main/src/backjoon/StackBasic.java)      | Jan 14, 2023   | solve     |
 
