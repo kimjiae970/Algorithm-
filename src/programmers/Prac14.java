@@ -1,27 +1,42 @@
 package programmers;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 
 class Prac14 {
     public int solution(int n) {
         int answer = 0;
 
-        int cnt = 1;
-        int value = 0;
+        int[] arr = new int[n];
+        int total = 0;
 
-        while (cnt <= n) {
+        for ( int  i = 0; i < n; i++) {
 
-            value = n / cnt;
+            arr[i] = i+1;
+        }
 
-            if( n % 2 == 0) {
+        for (int i = 0; i < n; i++ ) {
 
-            }else {
-
+            if(n ==1 ) {
+                answer = 1;
+                break;
             }
-            System.out.println(value);
+            int j = 0;
 
-            cnt++;
+            while ( total+arr[j] <= n) {
 
+                total += arr[i+j];
+                j++;
+            }
+
+            if ( total == n) {
+                answer++;
+                total = 0;
+                j = 0;
+            }else {
+                total = 0;
+                j = 0;
+            }
         }
         return answer;
     }
