@@ -16,7 +16,7 @@
 | 레벨   | 문제 제목: 번호                                                                                   | 날짜           | 진행 상황 |
 |------|---------------------------------------------------------------------------------------------|--------------|-------|
 | Lv 2 | [최댓값 : 2566](https://github.com/kimjiae970/Algorithm-/blob/main/src/backjoon/B_2566.java) | Feb 15, 2023 | solve|
-| Lv 1 | [행렬 덧셈 :2738](https://github.com/kimjiae970/Algorithm-/blob/main/src/backjoon/B_2738.java) | Feb 15, 2023 | solve|
+| Lv 1 | [행렬 덧셈 : 2738](https://github.com/kimjiae970/Algorithm-/blob/main/src/backjoon/B_2738.java) | Feb 15, 2023 | solve|
 
 
 ### 🔗 정렬
