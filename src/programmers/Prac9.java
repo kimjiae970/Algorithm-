@@ -1,35 +1,51 @@
 package programmers;
 
-import java.util.*;
+
+import java.util.ArrayDeque;
+import java.util.Arrays;
+import java.util.Deque;
 
 class Prac9 {
     public int solution(int[] people, int limit) {
+
         int answer = people.length;
 
         Arrays.sort(people);
 
-        if (limit - people[0] >= people[1]) {
+        Deque<Integer> deque = new ArrayDeque<>();
 
-            for (int i = people.length - 1; i > 0; i--) {
+        for (int i : people) {
+            deque.add(i);
+        }
 
-                if (limit - people[i] >= 40) {
-                    for (int j = 0; j < i; j++) {
+        if (deque.size() > 1) {
 
-                        int temp = limit - people[i];
+            int first_peek = deque.getFirst();
 
-                        if (temp >= people[j]) {
+            deque.removeFirst();
 
-                            people[i] = limit;
-                            people[j] = limit;
-                            answer--;
-                        }
+            if (limit >= first_peek + deque.getFirst()) {
+
+                deque.addFirst(first_peek);
+
+                while (deque.size() != 0) {
+
+                    if (deque.size() == 1) {
+                        deque.removeFirst();
+
+                    } else if (deque.getFirst() + deque.getLast() <= limit) {
+                        answer--;
+                        deque.removeLast();
+                        deque.removeFirst();
+
+                    } else if (deque.getFirst() + deque.getLast() > limit) {
+                        deque.removeLast();
                     }
                 }
-
             }
         }
 
         return answer;
-    }
 
+    }
 }
