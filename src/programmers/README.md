@@ -8,12 +8,12 @@
 
 | 레벨   | 문제 제목                                                                                        | 날짜           |진행 상황|
 |------|----------------------------------------------------------------------------------------------|--------------|---|
+| Lv 2 | [구명보트](https://github.com/kimjiae970/Algorithm-/blob/main/src/programmers/Prac9.java)        | Feb 16, 2023 |improve|
 | Lv 2 | [숫자의 표현](https://github.com/kimjiae970/Algorithm-/blob/main/src/programmers/Prac14.java)      | Feb 14, 2023  | solve|
 | Lv 1 | [신규 아이디 추천](https://github.com/kimjiae970/Algorithm-/blob/main/src/programmers/Prac13.java)  | Feb 05, 2023 | solve|
 | Lv 2 | [이진 변환 반복하기](https://github.com/kimjiae970/Algorithm-/blob/main/src/programmers/Prac12.java) | Feb 02, 2023 | solve|
 | Lv 2 | [짝 지어 제거하기](https://github.com/kimjiae970/Algorithm-/blob/main/src/programmers/Prac11.java)  | Jan 30, 2023 | solve|
 | Lv 2 | [귤 고르기](https://github.com/kimjiae970/Algorithm-/blob/main/src/programmers/Prac10.java)      | Jan 27, 2023 |solve|
-| Lv 2 | [구명보트](https://github.com/kimjiae970/Algorithm-/blob/main/src/programmers/Prac9.java)        | Jan 24, 2023 |solve|
 | Lv 2 | [피보나치 수](https://github.com/kimjiae970/Algorithm-/blob/main/src/programmers/Prac8.java)      | Jan 20, 2023 |solve|
 | Lv 2 | [올바른 괄호](https://github.com/kimjiae970/Algorithm-/blob/main/src/programmers/Prac7.java)      | Jan 11, 2023 |solve|
 | Lv 2 | [최솟값 만들기](https://github.com/kimjiae970/Algorithm-/blob/main/src/Prac6.java)                 | Jan 9, 2023  |solve|
