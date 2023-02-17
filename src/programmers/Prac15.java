@@ -1,9 +1,7 @@
 package programmers;
 
-import java.sql.Array;
 import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collections;
+
 
 class Prac15 {
     public int solution(String s) {
@@ -11,12 +9,8 @@ class Prac15 {
 
         int left_s = 0, right_s = 0, left_m = 0, right_m = 0 ,left_l = 0, right_l = 0;
 
-        ArrayList<String> strings = new ArrayList();
-
         if (s.length() > 1) {
             for (int i = 0; i < s.length(); i++) {
-
-                strings.add(String.valueOf(s.charAt(i)));
 
                 switch (s.charAt(i)) {
                     case '(':
@@ -41,34 +35,26 @@ class Prac15 {
             }
         }
 
-        if (strings.size() % 2 == 0) {
+        if (s.length() % 2 == 0) {
 
             if (left_s == right_s && left_m == right_m && left_l == right_l) {
 
-                String word;
+                int i = 0;
+
+                StringBuffer sb = new StringBuffer(s);
 
                 do {
-                    String temp = strings.get(0).toString();
-                    strings.remove(0);
-                    strings.add(temp);
 
-                    word = "";
+                    char c = sb.charAt(i);
+                    sb.deleteCharAt(i);
+                    sb.append(c);
 
-                    for( String s1 : strings) {
-                        word += s1;
-                    }
+                    System.out.println(sb);
 
-                    word.replace("[]","");
-                    word.replace("{}", "");
-                    word.replace("()", "");
+                } while (i < s.length());
 
-
-                    System.out.println(word);
-
-                } while (word.equals(s));
             }
         }
-
         return answer;
     }
 
