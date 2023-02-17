@@ -51,6 +51,8 @@ class Prac15 {
 
                     System.out.println(sb);
 
+                    i++;
+                    
                 } while (i < s.length());
 
             }
