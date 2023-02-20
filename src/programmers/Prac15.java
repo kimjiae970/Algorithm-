@@ -1,62 +1,47 @@
 package programmers;
 
-import java.util.ArrayList;
-
-
 class Prac15 {
     public int solution(String s) {
+
         int answer = 0;
+        int i = 0;
+        StringBuilder sb  = new StringBuilder(s);
 
-        int left_s = 0, right_s = 0, left_m = 0, right_m = 0 ,left_l = 0, right_l = 0;
+        if((sb.length() % 2 ) == 0 ) {
 
-        if (s.length() > 1) {
-            for (int i = 0; i < s.length(); i++) {
+            do {
 
-                switch (s.charAt(i)) {
-                    case '(':
-                        left_s++;
-                        break;
-                    case ')':
-                        right_s++;
-                        break;
-                    case '{':
-                        left_m++;
-                        break;
-                    case '}':
-                        right_m++;
-                        break;
-                    case '[':
-                        left_l++;
-                        break;
-                    case ']':
-                        right_l++;
-                        break;
-                }
-            }
-        }
+                i++;
 
-        if (s.length() % 2 == 0) {
+                char c = sb.charAt(0);
+                sb.deleteCharAt(0);
+                sb.append(c);
 
-            if (left_s == right_s && left_m == right_m && left_l == right_l) {
+                String copy = sb.toString();
 
-                int i = 0;
-
-                StringBuffer sb = new StringBuffer(s);
-
-                do {
-
-                    char c = sb.charAt(i);
-                    sb.deleteCharAt(i);
-                    sb.append(c);
-
-                    System.out.println(sb);
-
-                    i++;
+                for(int j = 0;j < copy.length()-1; j++) {
                     
-                } while (i < s.length());
+                    if (copy.charAt(j) == '(' && copy.charAt(j + 1) == ')') {
+                        copy = copy.substring(0, j) + copy.substring(j + 2);
+                        j=-1;
+                    } else if (copy.charAt(j) == '{' && copy.charAt(j + 1) == '}') {
+                        copy = copy.substring(0, j) + copy.substring(j + 2);
+                        j=-1;
+                    } else if (copy.charAt(j) == '[' && copy.charAt(j + 1) == ']') {
+                        copy = copy.substring(0, j) + copy.substring(j + 2);
+                        j=-1;
+                    }
 
-            }
+
+                }
+                if(copy.equals("")){
+                    answer++;
+                }
+                //System.out.println(sb);
+            }while ( i < sb.length());
         }
+        System.out.println(answer);
+
         return answer;
     }
 
@@ -65,8 +50,8 @@ class Prac15 {
         Prac15 p = new Prac15();
 
         p.solution("[](){}");
-       //p.solution("}]()[{");
-        //p.solution("[)(]");
-        //p.solution("}}}");
+       p.solution("}]()[{");
+        p.solution("[)(]");
+        p.solution("}}}");
     }
 }
