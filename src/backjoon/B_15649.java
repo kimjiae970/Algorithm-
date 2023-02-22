@@ -1,6 +1,7 @@
 package backjoon;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Scanner;
 
@@ -8,31 +9,28 @@ public class B_15649 {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
-        Byte n = sc.nextByte();
-        Byte m = sc.nextByte();
+        int n = sc.nextInt();
+        int m = sc.nextInt();
 
-        HashSet set = new HashSet();
+       int[] arr = new int[m];
 
-        Byte i = 0;
-        Byte j = 0;
-        int temp = 1;
+        int i = 0;
+        int j = 0;
+        int temp = 0;
 
 
         while (i < n) {
-
             while (j < m) {
 
-                set.add(temp++);
+                for (int x = 1; x <= n; x++) {
+                    for (int y = 1; y <= n; y++) {
 
-                if((temp+1) <= n) {
-                    temp = temp+1;
+                    }
+
                 }
-                j++;
+
             }
-            System.out.println(set);
-           i++;
-        }
 
 
-    }
+        }}
     }
