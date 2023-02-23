@@ -14,6 +14,7 @@ public class B_15649 {
 
        int[] arr = new int[m];
 
+       int z = 0;
         int i = 0;
         int j = 0;
         int temp = 0;
