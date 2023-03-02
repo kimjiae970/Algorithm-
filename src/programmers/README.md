@@ -8,6 +8,7 @@
 
 | 레벨   | 문제 제목                                                                                        | 날짜           |진행 상황|
 |------|----------------------------------------------------------------------------------------------|--------------|---|
+| Lv 2 | [카펫](https://github.com/kimjiae970/Algorithm-/blob/main/src/programmers/Prac16.java)        | Mar 02, 2023 |solve|
 | Lv 2 | [괄호 회전하기](https://github.com/kimjiae970/Algorithm-/blob/main/src/programmers/Prac15.java)        | Feb 20, 2023 |solve|
 | Lv 2 | [구명보트](https://github.com/kimjiae970/Algorithm-/blob/main/src/programmers/Prac9.java)        | Feb 16, 2023 |improve|
 | Lv 2 | [숫자의 표현](https://github.com/kimjiae970/Algorithm-/blob/main/src/programmers/Prac14.java)      | Feb 14, 2023  | solve|
