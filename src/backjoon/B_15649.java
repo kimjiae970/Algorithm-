@@ -1,49 +1,47 @@
 package backjoon;
 
-import java.util.*;
+import java.util.Scanner;
 
 public class B_15649 {
+
+    static boolean[] check = new boolean[10];
+    static int[] graph = new int[10];
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
 
-        ArrayList<Integer> number = new ArrayList<>();
-        // Deque<Integer> deq = new ArrayDeque<>();
-
         int n = sc.nextInt();
         int m = sc.nextInt();
-        int firstNum = 1;
-        int count = 0;
-        int[] result = new int[m];
 
-        for (int i = 1; i <= n; i++) {
-            number.add(i);
+        dfs(0,n,m);
+    }
+
+    private static void dfs(int index, int n, int m) {
+
+        if(index == m) {
+
+            for(int value : graph) {
+
+                if(value != 0) System.out.print(value + " ");
+            }
+
+            System.out.println();
+
+            return ;
+
         }
 
+        for (int i = 1; i <= n; i++) {
 
-        do {
+            if(check[i]) continue;
 
-            for (int i = 0; i < m; i++) {
-                result[i] = number.get(i);
-            }
+            check[i] = true;
 
+            graph[index] = i;
 
-            int temp = number.get(m - 1);
-            number.add(temp);
-            number.remove(m - 1);
-            count++;
+            dfs(index + 1, n, m);
 
-
-            if (result[m-1]==n && count == m) {
-                count = 0;
-                number.add(temp);
-                number.remove(m - 1);
-            }
-
-            System.out.println(Arrays.toString(result));
-            firstNum++;
-
-        } while (firstNum <= n);
-
+            check[i] = false;
+        }
     }
 }
