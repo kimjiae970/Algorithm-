@@ -1,6 +1,8 @@
-# Algorithm
+# Algorithm 문제 풀이
 
-알고리즘 문제풀이 저장소
+![](https://velog.velcdn.com/images/acacia__u/post/17c5721a-e24b-45fe-b8de-ea3365c0886c/image.png)
+
+<b> 알고리즘 문제풀이 저장소🗂 <b>
 <br><br>
 
 
