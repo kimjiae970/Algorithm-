@@ -8,6 +8,7 @@
 
 | 레벨   | 문제 제목                                                                                        | 날짜           |진행 상황|
 |------|----------------------------------------------------------------------------------------------|--------------|---|
+| Lv 2 | [전화번호 목록](https://github.com/kimjiae970/Algorithm-/blob/main/src/programmers/Prac18.java)        | Mar 24, 2023 |fail|
 | Lv 2 | [영어 끝말잇기](https://github.com/kimjiae970/Algorithm-/blob/main/src/programmers/Prac17.java)        | Mar 06, 2023 |improve|
 | Lv 2 | [카펫](https://github.com/kimjiae970/Algorithm-/blob/main/src/programmers/Prac16.java)        | Mar 02, 2023 |solve|
 | Lv 2 | [괄호 회전하기](https://github.com/kimjiae970/Algorithm-/blob/main/src/programmers/Prac15.java)        | Feb 20, 2023 |solve|
